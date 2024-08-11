@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    color: black;
+    width: 100vw;
+    height: 100px;
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-left: 30px;
+
+}
+
+.nav-logo img{
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+.nav-logo p{
+    margin-left: 40px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.nav-menu li{
+    list-style: none;
+}
+
+.navbar button{
+    width: 150px;
+    height: 50px;
+    background: rgb(215, 225, 193);
+    border-radius: 30px;
+    border: none;
+    margin-right: 60px;
+    font-size: 24px;
+    font-weight: 700;
+}

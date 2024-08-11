@@ -1,0 +1,32 @@
+.quizz-category{
+display: flex;
+flex-direction: column;
+background: rgb(227, 219, 219);
+padding-top: 50px;
+padding-left: 12px;
+ width: 300px;
+ height: vh;
+ gap: 10px;
+}
+.category-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: rgb(251, 249, 254);
+   width: 280px;
+   height: 60px;
+ 
+  
+}
+.category-item p{
+    width: 200px;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: poppins;
+}
+.category-item img{
+    width: 70px;
+    height: 60px;
+}

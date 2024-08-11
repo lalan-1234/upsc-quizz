@@ -1,0 +1,84 @@
+.quizz{
+
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+    background: rgb(221, 230, 204);
+    color: black;
+}
+
+.quizz-section{
+    max-width: 600px;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    margin-left: 300px;
+    margin-top: 50px;
+    gap: 10px;
+  
+}
+
+.quizz-section h2{
+    margin-left: 5px;
+}
+.quizz-section ul li{
+    list-style: none;
+    width: 550px;
+    height: 60px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 8px;
+    
+
+}
+
+.quizz-section ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    gap: 5px;
+}
+.quizz-section button{
+    background: green;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 500;
+    cursor: pointer;
+
+}
+.correct{
+    background: rgb(201, 235, 201);
+    border:rgb(183, 234, 183) ;
+}
+.wrong{
+    background: rgb(235, 179, 179);
+    
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    gap: 10px;
+
+}
+
+.score button{
+    background: green;
+    width: 150px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 500;
+    cursor: pointer;
+}
